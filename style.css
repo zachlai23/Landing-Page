@@ -1,15 +1,18 @@
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header{
     background-color: #1F2937;
     border:1px solid #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .top-header{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding-bottom:80px;
+    padding-bottom:100px;
 }
 
 .bottom-header{
@@ -17,12 +20,106 @@
     flex-direction:column;
     padding-left:200px;
     width:500px;
+}
 
+.title{
+    text-align:center;
+    padding-top:48px;
+    padding-bottom:48px;
+    font-size:32px;
+    font-weight:900;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:32px;
+    padding-bottom:100px;
+}
+
+.info{
+    max-width:200px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    font-size:18px;
+}
+
+.sec3bod{  /*paragraph in quote section*/
+    font-style:italic;
+    text-align: center;
+}
+
+.section3{  /*whole quote section*/
+    color:#1F2937;
+    background-color: #E5E7EB;
+    font-size:36px;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:300px;
+    padding-left:300px;
+}
+
+.tag{       /* "-Thor" */
+    text-align: right;
+}
+
+.b{
+    width:200px;
+    height:200px;
+    border-color:#3882F6;
+    border-radius: 15px;
+    border-width: 10px;
+    border-style:solid;
 }
 
 .bod{ /*bottom header + image : to make them side by side*/
     display:flex;
-    padding-bottom:80px;
+    padding-bottom:120px;
+}
+
+.Last{
+    display:flex;
+    background-color: #3882F6;
+    gap:100px; 
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-right:100px;
+    padding-left:100px;
+    width:600px;
+    height:50px;
+    justify-content:center;
+    color:white;
+    border-radius:8px;
+    align-items:center;
+}
+
+.text1{
+    font-weight:900;
+    font-size:18px;
+}
+
+.text2{
+    color:lightgray;
+    font-size:12px;
+}
+
+.Outside{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Sign{
+    width:100px;
+    height:30px;
+    background-color:#3882F6;
+    color:white;
+    border-color:white;
+    border-radius:6px;
+    border-style:solid;
 }
 
 img{
